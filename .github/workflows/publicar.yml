@@ -1,0 +1,51 @@
+# Publica o site no GitHub Pages a cada alteração na branch main.
+# Antes de publicar, confere o conteúdo (ferramentas/validar.py).
+# Se a conferência achar um erro, o site continua na versão anterior.
+name: Publicar o site
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar os arquivos
+        uses: actions/checkout@v4
+
+      - name: Conferir o conteúdo
+        run: python3 ferramentas/validar.py
+
+      - name: Montar o site
+        run: |
+          mkdir _site
+          cp -r index.html sw.js manifest.webmanifest app assets conteudo _site/
+          VERSAO="$(date -u +%Y%m%d%H%M)-${GITHUB_SHA::7}"
+          sed -i "s/__VERSAO__/${VERSAO}/g" _site/index.html _site/sw.js
+          echo "Versão publicada: ${VERSAO}"
+
+      - name: Preparar o GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Enviar o site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v5
