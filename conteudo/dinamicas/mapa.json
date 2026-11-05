@@ -1,0 +1,241 @@
+{
+  "id": "mapa",
+  "versao": 1,
+  "publico": "casais",
+  "titulo": "Mapa do próximo ano",
+  "tempo": "~45 min",
+  "descricao": "Seis etapas para olhar o ano que passou e desenhar juntos o próximo, com os pés no chão.",
+  "capa": "mapa",
+  "data": {
+    "rotulo": "Data para abrirem o mapa de novo",
+    "curto": "Abrir o mapa de novo em",
+    "dica": "Sugestão: daqui a três meses."
+  },
+  "combinado": {
+    "rotulo": "Marcos do ano",
+    "descricao": "As metas do ano, o primeiro passo de cada uma e o que vão deixar de fazer.",
+    "etapas": [
+      "marcos",
+      "entregar"
+    ]
+  },
+  "fechamento": {
+    "texto": "“Porque sou eu que conheço os planos que tenho para vocês” — declara o Senhor — “planos de fazê-los prosperar, não de causar dano, planos de dar a vocês esperança e um futuro.”",
+    "ref": "Jeremias 29.11 · NVI"
+  },
+  "etapas": [
+    {
+      "id": "passou",
+      "titulo": "O ano que passou",
+      "tempo": "6 min",
+      "tipo": "individual",
+      "instrucao": "Antes de olhar para frente, olhar para trás. Cada um escreve <strong>um momento do último ano</strong> de que se orgulha como casal e <strong>uma coisa</strong> que faria diferente.",
+      "versiculos": [
+        {
+          "texto": "Graças ao grande amor do Senhor é que não somos consumidos, pois as suas misericórdias são inesgotáveis. Renovam-se cada manhã; grande é a sua fidelidade!",
+          "ref": "Lamentações 3.22-23 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "orgulho",
+          "tipo": "texto",
+          "rotulo": "Um momento do último ano de que eu me orgulho como casal",
+          "exemplo": "Quando a gente…",
+          "minimo": 30
+        },
+        {
+          "id": "diferente",
+          "tipo": "texto",
+          "rotulo": "Uma coisa que eu faria diferente",
+          "exemplo": "Se pudesse voltar, eu…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Escutem primeiro o que deu certo. O que cada um faria diferente é sobre si mesmo, não sobre o outro.",
+      "pergunta": "Qual foi o dia do último ano em que vocês se sentiram mais do mesmo lado?"
+    },
+    {
+      "id": "terca",
+      "titulo": "Uma terça-feira daqui a doze meses",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "instrucao": "Não é um sonho grande, é um dia comum. Descreva <strong>uma terça-feira à noite daqui a um ano</strong>: a casa, o jantar, a conversa, o clima entre vocês. É no dia comum que aparece o que cada um quer de verdade.",
+      "versiculos": [
+        {
+          "texto": "… Escreva claramente a visão em tábuas, para que se leia facilmente.",
+          "ref": "Habacuque 2.2 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "terca",
+          "tipo": "texto",
+          "rotulo": "Uma terça-feira comum daqui a doze meses: como é a nossa noite?",
+          "exemplo": "Eu chego em casa e…",
+          "minimo": 60
+        }
+      ],
+      "em_voz_alta": "Reparem no que aparece nos dois textos e no que só aparece em um. Os dois dizem muito.",
+      "pergunta": "O que dessa terça-feira já dá para começar a viver na próxima terça?"
+    },
+    {
+      "id": "areas",
+      "titulo": "As áreas do mapa",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "instrucao": "Uma nota de 0 a 10 para <strong>como cada área está hoje</strong>, não como deveria estar, nem como o outro acha que está. Ninguém vê a nota do outro até a revelação.",
+      "versiculos": [
+        {
+          "texto": "Esforce-se para saber bem como as suas ovelhas estão; dê cuidadosa atenção aos seus rebanhos…",
+          "ref": "Provérbios 27.23 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "notas",
+          "tipo": "escala",
+          "rotulo": "Como cada área está hoje",
+          "areas": [
+            "Tempo juntos",
+            "Dinheiro",
+            "Fé e vida na igreja",
+            "Casa e rotina",
+            "Família e amigos",
+            "Descanso e saúde"
+          ],
+          "destacar_diferenca": true
+        }
+      ],
+      "em_voz_alta": "Comecem pela linha destacada: é onde vocês mais enxergam diferente. Cada um explica a própria nota, sem tentar convencer o outro de que a sua é a certa.",
+      "pergunta": "Qual área melhorou no último ano? E o que fez ela melhorar?"
+    },
+    {
+      "id": "sonho",
+      "titulo": "Um sonho cada",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "instrucao": "Casamento não apaga o sonho de cada um: ele precisa de espaço no mapa também. Escreva <strong>um sonho seu</strong> para este ano e o que você precisa do outro para chegar lá.",
+      "versiculos": [
+        {
+          "texto": "Entregue ao Senhor tudo o que você faz, e os seus planos serão estabelecidos.",
+          "ref": "Provérbios 16.3 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "sonho",
+          "tipo": "texto",
+          "rotulo": "Um sonho meu para este ano",
+          "exemplo": "Eu quero…",
+          "minimo": 25
+        },
+        {
+          "id": "preciso",
+          "tipo": "texto",
+          "rotulo": "O que eu preciso de {OUTRO} para chegar lá",
+          "exemplo": "Eu preciso que você…",
+          "minimo": 25
+        }
+      ],
+      "em_voz_alta": "Quem ouve não avalia se o sonho é possível. Só pergunta: <b>“como eu posso ajudar?”</b>",
+      "pergunta": "Tem algum sonho seu que ficou guardado desde que vocês estão juntos?"
+    },
+    {
+      "id": "marcos",
+      "titulo": "Três marcos",
+      "tempo": "10 min",
+      "tipo": "a_quatro_maos",
+      "instrucao": "Juntos, escolham <strong>até três metas</strong> de casal para o ano, cada uma com o primeiro passo e até quando. Só a primeira é obrigatória.",
+      "versiculos": [
+        {
+          "texto": "Qual de vocês, se quiser construir uma torre, não senta primeiro para calcular o preço e verificar se tem dinheiro suficiente para completá-la?",
+          "ref": "Lucas 14.28 · NVI"
+        }
+      ],
+      "regras": [
+        "Melhor um marco cumprido do que três esquecidos.",
+        "Cada primeiro passo precisa caber na próxima semana."
+      ],
+      "campos": [
+        {
+          "id": "marco1",
+          "tipo": "linha",
+          "rotulo": "1º marco",
+          "exemplo": "Ex.: guardar dinheiro para a reserva de emergência",
+          "minimo": 10,
+          "contexto_diferenca": "areas"
+        },
+        {
+          "id": "passo1",
+          "tipo": "texto",
+          "rotulo": "1º marco: primeiro passo e até quando",
+          "exemplo": "Primeiro passo: … · Até: março",
+          "minimo": 20
+        },
+        {
+          "id": "marco2",
+          "tipo": "linha",
+          "rotulo": "2º marco",
+          "exemplo": "Opcional",
+          "minimo": 10,
+          "opcional": true,
+          "par": "passo2"
+        },
+        {
+          "id": "passo2",
+          "tipo": "texto",
+          "rotulo": "2º marco: primeiro passo e até quando",
+          "exemplo": "Primeiro passo: … · Até: …",
+          "minimo": 20,
+          "opcional": true,
+          "par": "marco2"
+        },
+        {
+          "id": "marco3",
+          "tipo": "linha",
+          "rotulo": "3º marco",
+          "exemplo": "Opcional",
+          "minimo": 10,
+          "opcional": true,
+          "par": "passo3"
+        },
+        {
+          "id": "passo3",
+          "tipo": "texto",
+          "rotulo": "3º marco: primeiro passo e até quando",
+          "exemplo": "Primeiro passo: … · Até: …",
+          "minimo": 20,
+          "opcional": true,
+          "par": "marco3"
+        }
+      ],
+      "em_voz_alta": "Para cada marco, perguntem: daqui a três meses, como vamos saber se ele andou?",
+      "pergunta": "Qual desses marcos depende mais de um do que do outro? Combinem como o outro pode ajudar."
+    },
+    {
+      "id": "entregar",
+      "titulo": "Entregar o mapa",
+      "tempo": "5 min",
+      "tipo": "a_quatro_maos",
+      "instrucao": "Todo mapa novo pede espaço. Escrevam juntos <strong>uma coisa que vão deixar de fazer</strong> para os marcos caberem na vida de vocês.",
+      "versiculos": [
+        {
+          "texto": "Em vez disso, deveriam dizer: “Se o Senhor quiser, viveremos e faremos isto ou aquilo”.",
+          "ref": "Tiago 4.15 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "deixar",
+          "tipo": "texto",
+          "rotulo": "O que vamos deixar de fazer para abrir espaço",
+          "exemplo": "A gente vai parar de…",
+          "minimo": 25
+        }
+      ],
+      "em_voz_alta": "Um mapa não é promessa de que tudo vai sair como planejado. É um jeito de caminhar na mesma direção.",
+      "pergunta": "Fechem orando juntos, entregando cada marco. Depois marquem a data de abrir este mapa de novo."
+    }
+  ]
+}

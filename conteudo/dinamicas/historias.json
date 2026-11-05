@@ -1,0 +1,237 @@
+{
+  "id": "historias",
+  "versao": 1,
+  "publico": "casais",
+  "titulo": "As histórias que nos formaram",
+  "tempo": "~1 hora",
+  "descricao": "Seis etapas sobre a casa onde cada um cresceu: o que vocês trouxeram de lá sem perceber e o que escolhem levar adiante.",
+  "capa": "casa",
+  "data": {
+    "rotulo": "Data para viverem a nova tradição pela primeira vez",
+    "curto": "Primeira vez em"
+  },
+  "combinado": {
+    "rotulo": "Nossa tradição",
+    "descricao": "A tradição que vocês decidiram começar.",
+    "etapas": [
+      "tradicao"
+    ]
+  },
+  "fechamento": {
+    "texto": "As divisas caíram para mim em lugares agradáveis: tenho uma bela herança!",
+    "ref": "Salmos 16.6 · NVI"
+  },
+  "etapas": [
+    {
+      "id": "mesa",
+      "titulo": "A mesa da minha casa",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "sensivel": true,
+      "instrucao": "Volte para a casa onde você cresceu. Descreva <strong>uma cena</strong> que resume como era: o jantar, o domingo, o barulho ou o silêncio. Não precisa explicar, só mostrar.",
+      "versiculos": [
+        {
+          "texto": "Não as esconderemos dos nossos filhos; contaremos à próxima geração os louváveis feitos do Senhor, o seu poder e as maravilhas que fez.",
+          "ref": "Salmos 78.4 · NVI"
+        }
+      ],
+      "regras": [
+        "Ninguém precisa contar o que não quer. Se doer demais, use o botão “Prefiro não falar disso hoje”.",
+        "Quem ouve não comenta a família do outro, nem para elogiar, nem para criticar."
+      ],
+      "campos": [
+        {
+          "id": "cena",
+          "tipo": "texto",
+          "rotulo": "Uma cena que resume a casa onde eu cresci",
+          "exemplo": "Na minha casa, à noite…",
+          "minimo": 40
+        }
+      ],
+      "em_voz_alta": "Ouçam como quem visita a casa do outro pela primeira vez: com curiosidade e respeito.",
+      "pergunta": "Que cheiro, música ou barulho mais lembra a sua casa de infância?"
+    },
+    {
+      "id": "aprendi",
+      "titulo": "O que eu aprendi sem ninguém me ensinar",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "sensivel": true,
+      "instrucao": "Ninguém senta o filho para ensinar a brigar ou a fazer carinho. A gente aprende olhando. Escreva <strong>o que você viu</strong> em casa nessas duas coisas.",
+      "versiculos": [
+        {
+          "texto": "Instrua a criança no caminho em que deve andar, e, mesmo com o passar dos anos, não se desviará dele.",
+          "ref": "Provérbios 22.6 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "briga",
+          "tipo": "texto",
+          "rotulo": "Como se resolvia uma briga lá em casa",
+          "exemplo": "Quando alguém brigava…",
+          "minimo": 30
+        },
+        {
+          "id": "carinho",
+          "tipo": "texto",
+          "rotulo": "Como se demonstrava carinho",
+          "exemplo": "Carinho lá em casa era…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Talvez vocês reconheçam aqui o jeito de brigar e de amar que cada um tem hoje. Isso não é sentença, é ponto de partida.",
+      "pergunta": "Em que momento você já se pegou brigando ou amando do jeito que via em casa?"
+    },
+    {
+      "id": "levo",
+      "titulo": "O que eu levo",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "sensivel": true,
+      "instrucao": "Toda casa deixa alguma coisa boa, mesmo as difíceis. Escreva <strong>uma coisa da sua família</strong> que você quer repetir no casamento de vocês.",
+      "versiculos": [
+        {
+          "texto": "Recordo-me da sua fé não fingida, que primeiro habitou em Loide, a sua avó, e na sua mãe, Eunice, e estou convencido de que também habita em você.",
+          "ref": "2 Timóteo 1.5 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "levo",
+          "tipo": "texto",
+          "rotulo": "Uma coisa da minha família que eu quero repetir na nossa",
+          "exemplo": "Quero que a gente também…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Quem ouve pode responder uma coisa só: <b>“eu quero isso também”</b>, se quiser de verdade.",
+      "pergunta": "De quem da sua família você herdou isso? Essa pessoa sabe?"
+    },
+    {
+      "id": "deixo",
+      "titulo": "O que eu deixo",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "sensivel": true,
+      "instrucao": "E toda casa deixa alguma coisa que não serve mais. Escreva <strong>um padrão</strong> que você decidiu não repetir: o padrão, não a pessoa.",
+      "versiculos": [
+        {
+          "texto": "Portanto, se alguém está em Cristo, é uma nova criação. As coisas antigas já passaram; eis que se fizeram novas!",
+          "ref": "2 Coríntios 5.17 · NVI"
+        }
+      ],
+      "regras": [
+        "Fale do padrão, nunca de quem o praticava: “gritar para resolver”, e não “meu pai era grosso”.",
+        "Quem ouve não comenta a família do outro. Hoje, nem uma palavra."
+      ],
+      "campos": [
+        {
+          "id": "deixo",
+          "tipo": "texto",
+          "rotulo": "Um padrão da minha casa que eu decidi não repetir",
+          "exemplo": "Eu não quero repetir…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Decidir não repetir é diferente de já ter conseguido. Quem ouve não cobra: <b>pergunta como pode ajudar</b>.",
+      "pergunta": "Quando esse padrão aparecer em você, como eu posso perceber e te ajudar a sair dele?"
+    },
+    {
+      "id": "encontro",
+      "titulo": "Onde nossas histórias se encontram",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "depende_de": {
+        "etapas": [
+          "mesa",
+          "aprendi",
+          "levo",
+          "deixo"
+        ],
+        "quem": "outro",
+        "basta_uma": true,
+        "texto": "Sem resposta nesta etapa: {OUTRO} preferiu não contar a própria história hoje."
+      },
+      "instrucao": "Com o que ouviu até aqui, escreva <strong>uma coisa da história do outro</strong> que ajuda você a entender um jeito dele ou dela hoje: algo que antes incomodava e agora faz mais sentido.",
+      "versiculos": [
+        {
+          "texto": "… cuidando, cada um, não somente dos próprios interesses, mas também dos interesses dos outros.",
+          "ref": "Filipenses 2.4 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "entendo",
+          "tipo": "texto",
+          "rotulo": "Uma coisa da história de {OUTRO} que me ajuda a entender um jeito de {OUTRO} hoje",
+          "exemplo": "Agora eu entendo por que você…",
+          "minimo": 40,
+          "contexto": [
+            {
+              "etapa": "aprendi",
+              "quem": "outro",
+              "campos": [
+                "briga",
+                "carinho"
+              ],
+              "rotulo": "O que {OUTRO} aprendeu em casa"
+            },
+            {
+              "etapa": "deixo",
+              "quem": "outro",
+              "campos": [
+                "deixo"
+              ],
+              "rotulo": "O que {OUTRO} decidiu não repetir"
+            }
+          ]
+        }
+      ],
+      "em_voz_alta": "Esta é a etapa de ser compreendido. Quem ouve pode responder: <b>“é isso mesmo”</b> ou <b>“quase, deixa eu te contar o resto”</b>.",
+      "pergunta": "Tem algum jeito meu que te incomodava e que hoje você vê diferente?"
+    },
+    {
+      "id": "tradicao",
+      "titulo": "A nossa história começa aqui",
+      "tempo": "10 min",
+      "tipo": "a_quatro_maos",
+      "instrucao": "Vocês são a primeira geração de uma casa nova. Escrevam juntos <strong>uma tradição</strong> que querem criar: algo pequeno, que se repete, e que um dia alguém vai lembrar como “lá em casa era assim”.",
+      "versiculos": [
+        {
+          "texto": "… escolham hoje a quem irão servir … Eu, porém, e a minha família serviremos ao Senhor.",
+          "ref": "Josué 24.15 · NVI"
+        }
+      ],
+      "regras": [
+        "Pequena o bastante para acontecer de verdade, toda semana ou todo mês.",
+        "Pode vir da casa de um, da casa do outro, ou de nenhuma das duas."
+      ],
+      "campos": [
+        {
+          "id": "tradicao",
+          "tipo": "linha",
+          "rotulo": "Nossa tradição",
+          "exemplo": "Ex.: o café da manhã de sábado sem celular",
+          "minimo": 10
+        },
+        {
+          "id": "como",
+          "tipo": "texto",
+          "rotulo": "Como ela vai funcionar: quando, onde, quem faz o quê",
+          "exemplo": "Todo sábado de manhã…",
+          "minimo": 30
+        },
+        {
+          "id": "lembrar",
+          "tipo": "texto",
+          "rotulo": "O que queremos que alguém lembre disso daqui a muitos anos",
+          "exemplo": "Que lá em casa…",
+          "minimo": 25
+        }
+      ],
+      "em_voz_alta": "Leiam a tradição em voz alta como se estivessem contando para alguém, daqui a vinte anos, como era a casa de vocês.",
+      "pergunta": "Fechem orando pela casa que vocês estão construindo e pelas casas de onde cada um veio. Depois marquem a data da primeira vez."
+    }
+  ]
+}

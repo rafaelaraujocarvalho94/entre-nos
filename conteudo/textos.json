@@ -1,0 +1,124 @@
+{
+  "app": {
+    "nome": "Entre Nós",
+    "versao": "beta 1"
+  },
+  "destaque": {
+    "rotulo": "Dinâmicas para casais",
+    "texto": "… Um cordão de três dobras não se rompe com facilidade.",
+    "ref": "Eclesiastes 4.12 · NVI"
+  },
+  "preparacao": {
+    "titulo": "Preparar o ambiente",
+    "texto": "Este tempo não é para ser encaixado entre uma coisa e outra. Arrumem o lugar, tirem o resto do caminho e sentem-se um de frente para o outro.",
+    "versiculo": {
+      "texto": "Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne.",
+      "ref": "Gênesis 2.24 · NVI"
+    },
+    "itens": [
+      {
+        "titulo": "Coloque uma música",
+        "texto": "De preferência no outro celular, longe da mão de vocês. Instrumental ou algo que os dois gostem, sem letra que puxe conversa."
+      },
+      {
+        "titulo": "Silencie o resto",
+        "texto": "Celular da dinâmica no modo Não Perturbe, televisão desligada, notificações fora do ar."
+      },
+      {
+        "titulo": "Deixem tudo lá fora",
+        "texto": "Agora, é só vocês dois. Sem responder mensagem, sem atender ninguém, sem “só um minuto”. Se for interromper, é melhor remarcar."
+      },
+      {
+        "titulo": "Combinem antes",
+        "texto": "Nada do que for dito aqui vira munição em briga futura. Digam isso em voz alta, um para o outro, antes de começar."
+      }
+    ],
+    "frase_final": "O tempo de vocês começa aqui."
+  },
+  "como_funciona": {
+    "titulo": "Como funciona",
+    "texto": "Cada dinâmica é uma conversa em seis etapas, feita a dois em um celular só. Cada um escreve a sua parte sem ver a do outro, e as respostas aparecem juntas na hora de ler.",
+    "passos": [
+      "<b>Cada etapa tem um leitor.</b> O app sorteia metade das etapas para cada um e mostra de quem é a vez de ler as instruções em voz alta. Quem lê a etapa também escreve primeiro.",
+      "<b>Um escreve por vez.</b> Quem não está escrevendo não olha a tela. O app avisa a hora de passar o celular.",
+      "<b>Ninguém lê a própria resposta.</b> Na revelação, cada um lê em voz alta o que o <b>outro</b> escreveu, como quem lê uma carta que recebeu. A exceção são as etapas que pedem a própria voz, como o pedido de perdão.",
+      "<b>Quem ouve, ouve.</b> Não interrompe, não se defende, não corrige. A resposta vem depois da leitura inteira.",
+      "<b>O relógio é só referência.</b> Cada etapa traz um tempo sugerido, mas se a conversa pedir mais, deixem ir. A dinâmica existe para a conversa, não o contrário."
+    ],
+    "instalar_titulo": "Deixar o Entre Nós na tela do celular",
+    "instalar_iphone": "No iPhone, abra no Safari, toque em ⋯ ou no botão de compartilhar e depois em Adicionar à Tela de Início. Façam isso antes da primeira dinâmica e usem sempre pelo ícone: o que é feito no Safari fica separado do ícone, e o Safari pode apagar as respostas depois de 7 dias sem uso.",
+    "instalar_android": "No Android, abra no Chrome, toque nos três pontinhos e depois em Instalar app ou Adicionar à tela inicial."
+  },
+  "sobre": {
+    "titulo": "Sobre o projeto",
+    "paragrafos": [
+      "O Entre Nós é um app gratuito de conversas guiadas para casais. Cada dinâmica é uma conversa em seis etapas, feita a dois em um celular só, sem pressa e sem plateia.",
+      "Ele nasceu de uma dinâmica que um casal criou para fazer em casa e cresceu com o desejo de ajudar outros casais a conversar sobre o que importa.",
+      "Esta é uma versão de teste. Se algo não funcionar ou algum texto não ficar claro, conte para a gente."
+    ],
+    "limites": "O Entre Nós não substitui o acompanhamento de um pastor, de um conselheiro ou de um profissional de saúde. Em caso de violência, ligue 180 (Central de Atendimento à Mulher, gratuita, 24 horas) ou 190 numa emergência.",
+    "responsavel": "",
+    "contato": "",
+    "formulario_beta": "",
+    "formulario_beta_rotulo": "Contar como foi o teste"
+  },
+  "privacidade": {
+    "titulo": "Privacidade",
+    "atualizado_em": "05/11/2026",
+    "resumo": "As respostas de vocês ficam só neste aparelho. Ninguém mais recebe o que vocês escrevem, nem quem fez o app.",
+    "secoes": [
+      {
+        "titulo": "O que o Entre Nós guarda",
+        "texto": "Os dois nomes que vocês digitam, as respostas, as notas, o andamento de cada dinâmica e as datas combinadas. Isso serve só para a dinâmica funcionar e para vocês consultarem os combinados depois."
+      },
+      {
+        "titulo": "Onde fica",
+        "texto": "Só neste aparelho, no armazenamento do navegador. Não existe cadastro, login nem servidor do Entre Nós. Nenhuma resposta é enviada pela internet."
+      },
+      {
+        "titulo": "Por quanto tempo",
+        "texto": "As etapas privadas (mágoas, pedidos de perdão e as respostas de Intimidade) são apagadas assim que o resumo aparece, ou quando a dinâmica fica parada por mais de um dia. O restante fica até vocês recomeçarem a dinâmica ou apagarem tudo pelo botão abaixo."
+      },
+      {
+        "titulo": "O que sai do aparelho",
+        "texto": "Só o que vocês decidirem levar: o PDF ou o texto copiado no fim de cada dinâmica. As etapas privadas nunca entram nesse material."
+      },
+      {
+        "titulo": "Hospedagem",
+        "texto": "O site é publicado pelo GitHub Pages. Como qualquer serviço de hospedagem, ele registra dados técnicos de acesso, como o endereço IP, para manter o serviço seguro. Quem faz o Entre Nós não tem acesso a esses registros, e o app não usa cookies de rastreamento, publicidade nem ferramentas de análise."
+      },
+      {
+        "titulo": "Doações",
+        "texto": "A doação é feita no app do banco de vocês, por PIX, diretamente para a igreja. O Entre Nós não recebe nem vê os dados da doação."
+      },
+      {
+        "titulo": "Celular compartilhado",
+        "texto": "Quem tiver acesso ao celular desbloqueado consegue abrir o que ainda não foi apagado. Se preferir, apaguem tudo ao terminar."
+      },
+      {
+        "titulo": "Seus direitos",
+        "texto": "Vocês podem ver tudo o que está guardado abrindo as dinâmicas e apagar tudo a qualquer momento pelo botão abaixo. Como nada fica com quem fez o app, não existe outra cópia para pedir, corrigir ou apagar."
+      },
+      {
+        "titulo": "Para quem é",
+        "texto": "O Entre Nós é feito para casais adultos."
+      }
+    ]
+  },
+  "doacao": {
+    "titulo": "Doar para a Igreja",
+    "texto": "O Entre Nós é gratuito. Se ele ajudou vocês, a doação feita por aqui vai para a Igreja, e não para quem desenvolve o app.",
+    "recebedor": "",
+    "cnpj": "",
+    "banco": "",
+    "chave_pix": "",
+    "pix_copia_e_cola": "",
+    "texto_sem_dados": "Os dados para doação ainda vão ser publicados.",
+    "apoio_desenvolvedor_texto": "Quer ajudar quem desenvolve o app?",
+    "apoio_desenvolvedor_link": ""
+  },
+  "compartilhar": {
+    "texto": "Conversas guiadas para casais, para fazer a dois em um celular só. É gratuito, e as respostas ficam só no celular de vocês."
+  },
+  "aviso_biblia": "Bíblia Sagrada, Nova Versão Internacional®, NVI® © 1993, 2000, 2011, 2023 por Biblica, Inc. Usado com permissão. Todos os direitos reservados mundialmente."
+}

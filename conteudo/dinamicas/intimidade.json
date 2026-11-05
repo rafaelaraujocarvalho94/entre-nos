@@ -1,0 +1,226 @@
+{
+  "id": "intimidade",
+  "versao": 1,
+  "publico": "casais",
+  "titulo": "Intimidade",
+  "tempo": "~1 hora",
+  "descricao": "Seis etapas para falar, com cuidado, do que aproxima vocês: da conversa e do carinho até a vida íntima.",
+  "capa": "aneis",
+  "avisos_preparacao": [
+    {
+      "titulo": "Esta conversa pede cuidado",
+      "texto": "Aqui ninguém precisa contar detalhes nem responder o que não quiser. Se o assunto envolve dor física, trauma ou uma ferida que não fecha, a conversa é com um conselheiro, um pastor ou um médico, e não com o app."
+    }
+  ],
+  "texto_resumo": "O combinado de vocês. As respostas das outras etapas não ficam guardadas neste resumo, nem no PDF.",
+  "data": {
+    "rotulo": "Data do primeiro tempo só de vocês dois",
+    "curto": "Primeiro encontro em"
+  },
+  "combinado": {
+    "rotulo": "Nosso tempo",
+    "descricao": "O tempo fixo só de vocês dois, toda semana.",
+    "etapas": [
+      "tempo"
+    ]
+  },
+  "fechamento": {
+    "texto": "As muitas águas não podem apagar o amor, nem os rios podem levá-lo na correnteza…",
+    "ref": "Cântico dos Cânticos 8.7 · NVI"
+  },
+  "etapas": [
+    {
+      "id": "perto",
+      "titulo": "Perto de você",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "privada": true,
+      "instrucao": "Comecem pelo que já é bom. Cada um escreve <strong>um momento recente</strong> em que se sentiu muito perto do outro, e o que fez aquele momento ser assim.",
+      "versiculos": [
+        {
+          "texto": "O meu amado é meu, e eu sou dele…",
+          "ref": "Cântico dos Cânticos 2.16 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "momento",
+          "tipo": "texto",
+          "rotulo": "Um momento em que eu me senti muito perto de você",
+          "exemplo": "Foi quando…",
+          "minimo": 30
+        },
+        {
+          "id": "porque",
+          "tipo": "texto",
+          "rotulo": "O que fez aquele momento ser assim",
+          "exemplo": "Acho que foi porque…",
+          "minimo": 25
+        }
+      ],
+      "em_voz_alta": "Quem escreveu escuta a própria lembrança na voz do outro. Deixem o silêncio acontecer depois de cada leitura.",
+      "pergunta": "O que precisaria acontecer para a gente ter mais momentos como esse?"
+    },
+    {
+      "id": "formas",
+      "titulo": "As formas de estar junto",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "privada": true,
+      "instrucao": "Intimidade tem várias portas. Dê uma nota de 0 a 10 para <strong>como cada uma está hoje</strong>, do seu ponto de vista. Ninguém vê a nota do outro até a revelação.",
+      "versiculos": [
+        {
+          "texto": "O homem e a sua mulher estavam nus, mas não sentiam vergonha.",
+          "ref": "Gênesis 2.25 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "notas",
+          "tipo": "escala",
+          "rotulo": "Como cada uma está hoje",
+          "areas": [
+            "Conversa",
+            "Carinho no dia a dia",
+            "Tempo a sós",
+            "Oração juntos",
+            "Vida íntima"
+          ],
+          "destacar_diferenca": false
+        }
+      ],
+      "em_voz_alta": "Nota diferente não quer dizer que um está certo e o outro errado: quer dizer que cada um está vivendo essa área de um jeito. Escolham juntos por qual área começar, e cada um explica a própria nota.",
+      "pergunta": "Qual dessas áreas, se melhorasse, puxaria as outras junto?"
+    },
+    {
+      "id": "aproxima",
+      "titulo": "O que me aproxima, o que me afasta",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "sensivel": true,
+      "privada": true,
+      "instrucao": "Cada um escreve <strong>uma coisa que o outro faz</strong> que o faz se sentir desejado(a) e cuidado(a), e <strong>uma situação</strong> que o faz se fechar. Situação, não defeito do outro: cansaço, pressa, crítica, celular.",
+      "versiculos": [
+        {
+          "texto": "No amor não há medo; pelo contrário, o perfeito amor expulsa o medo…",
+          "ref": "1 João 4.18 · NVI"
+        }
+      ],
+      "regras": [
+        "A segunda resposta é sobre a situação, não sobre o outro.",
+        "Quem lê não se explica e não se defende."
+      ],
+      "campos": [
+        {
+          "id": "aproxima",
+          "tipo": "texto",
+          "rotulo": "Uma coisa que você faz que me faz sentir desejado(a) e cuidado(a)",
+          "exemplo": "Eu me sinto assim quando você…",
+          "minimo": 25
+        },
+        {
+          "id": "fecha",
+          "tipo": "texto",
+          "rotulo": "Uma situação que me faz fechar",
+          "exemplo": "Eu me fecho quando…",
+          "minimo": 25
+        }
+      ],
+      "em_voz_alta": "Leiam devagar. A primeira resposta mostra o que fazer mais; a segunda, o que proteger. Nenhuma das duas é acusação.",
+      "pergunta": "O que eu posso fazer nos dias em que você está mais fechado(a), sem te pressionar?"
+    },
+    {
+      "id": "dificil",
+      "titulo": "O que é difícil de dizer",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "sensivel": true,
+      "privada": true,
+      "instrucao": "Uma coisa sobre a vida íntima de vocês que você nunca conseguiu dizer. Pode ser um medo, uma vergonha, uma saudade, um incômodo. <strong>Sem detalhes que você não queira dar.</strong>",
+      "versiculos": [
+        {
+          "texto": "O casamento deve ser honrado por todos, e o leito conjugal, conservado puro…",
+          "ref": "Hebreus 13.4 · NVI"
+        }
+      ],
+      "regras": [
+        "Fale de você: do que sente, não do que o outro faz de errado.",
+        "Quem lê não responde, não se defende e não cobra. Só agradece a confiança.",
+        "Se não for o dia, use “Prefiro não falar disso hoje”."
+      ],
+      "campos": [
+        {
+          "id": "dificil",
+          "tipo": "texto",
+          "rotulo": "Uma coisa que eu nunca consegui te dizer",
+          "exemplo": "Eu nunca te disse que…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Quem lê está dando voz a algo que custou ao outro escrever. Leia com cuidado e termine com <b>“obrigado(a) por confiar em mim”</b>. A conversa sobre o assunto pode esperar outro dia.",
+      "pergunta": "Você prefere conversar sobre isso agora, ou em outro momento que a gente combine?"
+    },
+    {
+      "id": "pedido",
+      "titulo": "Um pedido cada",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "sensivel": true,
+      "privada": true,
+      "instrucao": "Um pedido só, pequeno e no positivo. Complete: <strong>“Eu gostaria que a gente…”</strong>",
+      "versiculos": [
+        {
+          "texto": "Eu sou do meu amado, e ele me deseja.",
+          "ref": "Cântico dos Cânticos 7.10 · NVI"
+        }
+      ],
+      "regras": [
+        "“A gente”, e não “você”: o pedido é para os dois.",
+        "Um só. Nada de lista.",
+        "Quem lê não promete nada na hora. Só faz uma pergunta."
+      ],
+      "campos": [
+        {
+          "id": "pedido",
+          "tipo": "texto",
+          "rotulo": "Eu gostaria que a gente…",
+          "exemplo": "…tivesse uma noite por semana sem tela.",
+          "minimo": 25
+        }
+      ],
+      "em_voz_alta": "Depois de ler o pedido do outro, faça uma única pergunta: <b>“o que tornaria isso mais fácil para você?”</b>",
+      "pergunta": "Qual é o menor passo possível na direção desse pedido, ainda esta semana?"
+    },
+    {
+      "id": "tempo",
+      "titulo": "Nosso tempo",
+      "tempo": "8 min",
+      "tipo": "a_quatro_maos",
+      "instrucao": "Intimidade não sobra no fim do dia: ela precisa de lugar marcado. Combinem juntos <strong>um tempo fixo só de vocês dois</strong>, toda semana.",
+      "versiculos": [
+        {
+          "texto": "Além do mais, se dois dormirem juntos, vão manter-se aquecidos. Como, porém, manter-se aquecido sozinho?",
+          "ref": "Eclesiastes 4.11 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "quando",
+          "tipo": "linha",
+          "rotulo": "Quando e onde",
+          "exemplo": "Ex.: quinta à noite, em casa",
+          "minimo": 8
+        },
+        {
+          "id": "proteger",
+          "tipo": "texto",
+          "rotulo": "O que vamos fazer para proteger esse tempo",
+          "exemplo": "A gente combina de…",
+          "minimo": 25
+        }
+      ],
+      "em_voz_alta": "Tempo marcado não tira a espontaneidade. Garante que ela tenha onde acontecer.",
+      "pergunta": "Fechem orando juntos, agradecendo um pelo outro. Depois marquem a data do primeiro encontro."
+    }
+  ]
+}

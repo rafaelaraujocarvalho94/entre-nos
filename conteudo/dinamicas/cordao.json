@@ -1,0 +1,247 @@
+{
+  "id": "cordao",
+  "versao": 1,
+  "publico": "casais",
+  "titulo": "Cordão de três dobras",
+  "tempo": "~1 hora",
+  "descricao": "Seis etapas sobre o que vocês admiram, o que reconhecem em si mesmos e o que pedem um ao outro.",
+  "capa": "cordao",
+  "data": {
+    "rotulo": "Data para retomar essa conversa",
+    "curto": "Retomar em"
+  },
+  "combinado": {
+    "rotulo": "Compromisso de 30 dias",
+    "descricao": "Cada um escolheu um pedido do outro para praticar.",
+    "etapas": [
+      "compromisso"
+    ]
+  },
+  "fechamento": {
+    "texto": "… Um cordão de três dobras não se rompe com facilidade.",
+    "ref": "Eclesiastes 4.12 · NVI"
+  },
+  "etapas": [
+    {
+      "id": "qualidades",
+      "titulo": "O que eu admiro em você",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "instrucao": "Cinco qualidades do outro. A regra é ser <strong>específico</strong>: “você é boa” não vale; “você é a primeira a pedir desculpa, mesmo quando não começou” vale.",
+      "versiculos": [
+        {
+          "texto": "Finalmente, irmãos, pensem em tudo o que for verdadeiro, tudo o que for digno de respeito, tudo o que for justo, tudo o que for puro, tudo o que for amável, tudo o que for de boa fama, em tudo o que houver alguma virtude ou algo de louvor.",
+          "ref": "Filipenses 4.8 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "q1",
+          "tipo": "linha",
+          "rotulo": "1ª qualidade",
+          "exemplo": "Você…",
+          "minimo": 12
+        },
+        {
+          "id": "q2",
+          "tipo": "linha",
+          "rotulo": "2ª qualidade",
+          "exemplo": "Você…",
+          "minimo": 12
+        },
+        {
+          "id": "q3",
+          "tipo": "linha",
+          "rotulo": "3ª qualidade",
+          "exemplo": "Você…",
+          "minimo": 12
+        },
+        {
+          "id": "q4",
+          "tipo": "linha",
+          "rotulo": "4ª qualidade",
+          "exemplo": "Você…",
+          "minimo": 12
+        },
+        {
+          "id": "q5",
+          "tipo": "linha",
+          "rotulo": "5ª qualidade",
+          "exemplo": "Você…",
+          "minimo": 12
+        }
+      ],
+      "em_voz_alta": "Quem ouve responde só <b>“obrigado(a)”</b>, nada de “imagina” ou “nem tanto”. Elogio recusado é elogio devolvido fechado.",
+      "pergunta": "Qual dessas cinco você mais duvida que seja verdade sobre você? Comecem por aí."
+    },
+    {
+      "id": "gratidao",
+      "titulo": "Obrigado por aquela vez",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "instrucao": "Sair do elogio geral e ir para a memória concreta. Duas lembranças cada um. Quanto mais detalhe, melhor.",
+      "versiculos": [
+        {
+          "texto": "Deem graças em todas as circunstâncias, pois esta é a vontade de Deus para vocês em Cristo Jesus.",
+          "ref": "1 Tessalonicenses 5.18 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "ajudou",
+          "tipo": "texto",
+          "rotulo": "Uma vez em que você me ajudou e eu talvez não tenha agradecido direito",
+          "exemplo": "Lembro do dia em que…",
+          "minimo": 30
+        },
+        {
+          "id": "semana",
+          "tipo": "texto",
+          "rotulo": "Algo que você faz toda semana e que eu já estava tratando como obrigação sua",
+          "exemplo": "Você sempre…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "O que vira rotina deixa de ser visto. Essas duas lembranças existem para tirar do automático aquilo que o outro faz sem cobrar nada em troca.",
+      "pergunta": "O que você faz por mim que acha que eu nunca percebo?"
+    },
+    {
+      "id": "espelho",
+      "titulo": "O espelho",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "instrucao": "Aqui ninguém escreve sobre o outro. Cada um escreve <strong>duas coisas suas</strong> que pesam no casamento. É a parte mais desconfortável e a que mais muda alguma coisa.",
+      "versiculos": [
+        {
+          "texto": "Por que você repara no cisco que está no olho do seu irmão, mas não se dá conta da viga que está no seu próprio olho? … Hipócrita, tire primeiro a viga do seu olho e, então, você verá claramente para tirar o cisco do olho do seu irmão.",
+          "ref": "Mateus 7.3,5 · NVI"
+        }
+      ],
+      "regras": [
+        "Ninguém completa a lista do outro. Nem hoje, nem depois.",
+        "Quem ouve responde uma frase só: “obrigado(a) por me dizer isso”.",
+        "Nada do que for dito aqui volta como munição em uma briga futura."
+      ],
+      "campos": [
+        {
+          "id": "reconheco1",
+          "tipo": "texto",
+          "rotulo": "Primeira coisa que eu reconheço em mim",
+          "exemplo": "Eu sei que eu…",
+          "minimo": 30
+        },
+        {
+          "id": "reconheco2",
+          "tipo": "texto",
+          "rotulo": "Segunda coisa que eu reconheço em mim",
+          "exemplo": "Eu sei que eu…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Reconhecer a própria parte é o que impede a conversa de virar tribunal. Quem ouve <b>não conserta, não minimiza e não devolve</b>. Só agradece a coragem do outro.",
+      "pergunta": "Quando isso aparece em mim, o que ajuda você a lidar? E o que piora?"
+    },
+    {
+      "id": "pedidos",
+      "titulo": "Pedidos no lugar de defeitos",
+      "tempo": "12 min",
+      "tipo": "individual",
+      "instrucao": "Em vez de listar os defeitos do outro, cada um faz <strong>dois pedidos</strong>. Complete a frase: “Eu me sentiria amado(a) se você…”",
+      "versiculos": [
+        {
+          "texto": "Nenhuma palavra torpe saia da boca de vocês, mas apenas a que for útil para edificar os outros, conforme a necessidade, para que transmita graça aos que a ouvem. … Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, como Deus os perdoou em Cristo.",
+          "ref": "Efésios 4.29,32 · NVI"
+        }
+      ],
+      "regras": [
+        "Sem “você sempre” e sem “você nunca”.",
+        "O pedido precisa ser observável: alguém de fora saberia dizer se aconteceu.",
+        "Um pedido por vez, sem emendar mágoas antigas.",
+        "Quem recebe não se defende hoje. Só pergunta: “como isso seria na prática?”"
+      ],
+      "campos": [
+        {
+          "id": "pedido1",
+          "tipo": "texto",
+          "rotulo": "Eu me sentiria amado(a) se você…",
+          "exemplo": "…me mandasse uma mensagem no meio do dia, mesmo curta.",
+          "minimo": 30
+        },
+        {
+          "id": "pedido2",
+          "tipo": "texto",
+          "rotulo": "E também se você…",
+          "exemplo": "…me perguntasse antes de assumir compromisso no fim de semana.",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Pedido não é acusação: é apontar o caminho em vez de reclamar do lugar. Depois de cada pedido, quem recebeu pergunta uma única coisa: <b>“como isso seria na prática?”</b>",
+      "pergunta": "Desses pedidos, qual seria o mais difícil para você? E o que tornaria mais fácil?"
+    },
+    {
+      "id": "conta",
+      "titulo": "A conta que não fecha",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "instrucao": "Casamento não é balanço contábil. Quem convive de perto sempre vai ter a lista de defeitos maior. É o preço da intimidade, e somar não resolve nada. Aqui cada um escolhe <strong>uma</strong> qualidade do outro que sustenta o que ele mesmo ainda não consegue sustentar sozinho.",
+      "versiculos": [
+        {
+          "texto": "O amor é paciente, o amor é bondoso. … Tudo sofre, tudo crê, tudo espera, tudo suporta.",
+          "ref": "1 Coríntios 13.4,7 · NVI"
+        },
+        {
+          "texto": "Sobretudo, amem sinceramente uns aos outros, porque o amor perdoa uma multidão de pecados.",
+          "ref": "1 Pedro 4.8 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "cobre",
+          "tipo": "texto",
+          "rotulo": "A qualidade do outro que mais cobre as minhas falhas, e por quê",
+          "exemplo": "A sua paciência cobre o meu…",
+          "minimo": 40
+        }
+      ],
+      "em_voz_alta": "Ninguém se casa com uma lista de qualidades: se casa com a pessoa inteira, defeitos incluídos. Dizer o que cobre o quê é mais honesto, e mais bonito, do que contar pontos.",
+      "pergunta": "Em que momento da nossa história você mais precisou que eu cobrisse algo seu?"
+    },
+    {
+      "id": "compromisso",
+      "titulo": "O compromisso",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "instrucao": "Dinâmica sem compromisso vira só uma noite bonita. Escolha <strong>um</strong> dos pedidos que o outro fez na etapa 4 (um, não os dois) e diga o primeiro passo concreto.",
+      "versiculos": [
+        {
+          "texto": "Sobre todas essas coisas, porém, vistam-se do amor, que é o elo perfeito.",
+          "ref": "Colossenses 3.14 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "escolhido",
+          "tipo": "escolha",
+          "rotulo": "O pedido de {OUTRO} que eu escolho praticar nos próximos 30 dias",
+          "opcoes_de": {
+            "etapa": "pedidos",
+            "quem": "outro",
+            "campos": [
+              "pedido1",
+              "pedido2"
+            ]
+          }
+        },
+        {
+          "id": "passo",
+          "tipo": "texto",
+          "rotulo": "O primeiro passo concreto, ainda esta semana",
+          "exemplo": "Na quarta eu vou…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Um pedido cada, por trinta dias. Promessa grande demais é a que ninguém cobra depois. O que vale aqui é o passo pequeno que acontece de verdade.",
+      "pergunta": "Fechem orando um pelo outro em voz alta, usando o que ouviram hoje. Depois marquem no calendário a data de voltar a essa conversa."
+    }
+  ]
+}

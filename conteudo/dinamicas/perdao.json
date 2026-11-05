@@ -1,0 +1,265 @@
+{
+  "id": "perdao",
+  "versao": 1,
+  "publico": "casais",
+  "titulo": "Perdão e recomeço",
+  "tempo": "~1 hora",
+  "descricao": "Seis etapas para tirar do coração uma mágoa guardada, pedir perdão com as próprias palavras e combinar como recomeçar.",
+  "capa": "sol",
+  "avisos_preparacao": [
+    {
+      "titulo": "Esta dinâmica é para as mágoas do dia a dia",
+      "texto": "Se há traição recente, violência, ou algo que vocês não conseguem conversar sem se ferir, parem aqui e procurem um pastor ou um conselheiro de casais. Em caso de violência, ligue 180 (Central de Atendimento à Mulher, gratuita, 24 horas) ou 190 numa emergência. Isso não é fraqueza, é cuidado."
+    }
+  ],
+  "texto_resumo": "O que vocês decidiram hoje. As mágoas, os pedidos de perdão e as respostas a eles não ficam neste resumo, nem no PDF.",
+  "data": {
+    "rotulo": "Data para conferirem como está o coração de cada um",
+    "curto": "Conferir em"
+  },
+  "combinado": {
+    "rotulo": "Recomeço",
+    "descricao": "Como uma mágoa nova chega à conversa, e em quanto tempo.",
+    "etapas": [
+      "recomeco"
+    ]
+  },
+  "fechamento": {
+    "texto": "De novo, terás compaixão de nós; pisarás as nossas maldades e lançarás todos os nossos pecados nas profundezas do mar.",
+    "ref": "Miqueias 7.19 · NVI"
+  },
+  "etapas": [
+    {
+      "id": "oque",
+      "titulo": "O que é perdão, e o que não é",
+      "tempo": "5 min",
+      "tipo": "leitura",
+      "instrucao": "Antes de qualquer coisa, combinem o que vocês entendem por perdão. Leiam em voz alta, um ponto de cada vez. Ninguém escreve nada nesta etapa.",
+      "versiculos": [
+        {
+          "texto": "Suportem uns aos outros e perdoem as queixas que tiverem uns contra os outros. Perdoem como o Senhor os perdoou.",
+          "ref": "Colossenses 3.13 · NVI"
+        }
+      ],
+      "pontos": [
+        "<b>Perdoar não é esquecer.</b> É lembrar sem cobrar.",
+        "<b>Perdoar não é dizer que não doeu.</b> Doeu, e é por isso que precisa de perdão.",
+        "<b>Perdoar não é voltar a confiar no mesmo dia.</b> O perdão se decide; a confiança se reconstrói com o tempo.",
+        "<b>Perdoar não é um sentimento que chega sozinho.</b> É uma decisão que se repete até o sentimento alcançar.",
+        "<b>Pedir perdão não é se explicar.</b> É reconhecer o que fez e o que isso causou."
+      ],
+      "campos": []
+    },
+    {
+      "id": "magoa",
+      "titulo": "A mágoa que ficou",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "sensivel": true,
+      "privada": true,
+      "instrucao": "Cada um escreve <strong>uma mágoa</strong> que ainda pesa: o que aconteceu e como se sentiu. Uma só, e do tamanho que dá para carregar hoje.",
+      "versiculos": [
+        {
+          "texto": "Tomem cuidado para que ninguém se afaste da graça de Deus e para que nenhuma raiz de amargura, ao brotar, cause perturbação e contamine muitos…",
+          "ref": "Hebreus 12.15 · NVI"
+        }
+      ],
+      "regras": [
+        "Não escolha a maior de todas. Escolha uma que vocês consigam conversar hoje.",
+        "Fato e sentimento, sem acusação: “quando você esqueceu, eu me senti sozinha”, e não “você nunca liga para mim”.",
+        "Quem lê a mágoa do outro não responde nada nesta etapa. Nem explicação, nem pedido de desculpa ainda.",
+        "Se não houver nada hoje, ou se doer demais, use “Prefiro não falar disso hoje”."
+      ],
+      "campos": [
+        {
+          "id": "aconteceu",
+          "tipo": "texto",
+          "rotulo": "O que aconteceu",
+          "exemplo": "Quando…",
+          "minimo": 30
+        },
+        {
+          "id": "senti",
+          "tipo": "texto",
+          "rotulo": "Como eu me senti",
+          "exemplo": "Eu me senti…",
+          "minimo": 20
+        }
+      ],
+      "em_voz_alta": "Leiam devagar. Quem lê não explica, não corrige os detalhes e não pede desculpa ainda. A vez de responder vem nas próximas etapas.",
+      "pergunta": "Nesta etapa não há conversa. Respirem fundo e sigam para a próxima quando os dois estiverem prontos."
+    },
+    {
+      "id": "ouvir",
+      "titulo": "Ouvir sem se defender",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "privada": true,
+      "nota": {
+        "rotulo": "Nota de {OUTRO}: o quanto se sentiu entendido(a)"
+      },
+      "depende_de": {
+        "etapas": [
+          "magoa"
+        ],
+        "quem": "outro",
+        "texto": "Sem resposta nesta etapa: a mágoa não foi contada hoje."
+      },
+      "instrucao": "Com a mágoa do outro à vista, escreva <strong>o que você entendeu que ele ou ela sentiu</strong>. Só isso. O seu lado da história fica para outro dia.",
+      "versiculos": [
+        {
+          "texto": "Quem responde antes de ouvir comete insensatez e passa vergonha.",
+          "ref": "Provérbios 18.13 · NVI"
+        }
+      ],
+      "regras": [
+        "Só o que o outro sentiu. Nada do seu lado da história.",
+        "Proibido começar com “mas” ou “é que”."
+      ],
+      "campos": [
+        {
+          "id": "entendi",
+          "tipo": "texto",
+          "rotulo": "O que eu entendi que {OUTRO} sentiu",
+          "exemplo": "Eu entendi que você se sentiu…",
+          "minimo": 40,
+          "contexto": [
+            {
+              "etapa": "magoa",
+              "quem": "outro",
+              "campos": [
+                "aconteceu",
+                "senti"
+              ],
+              "rotulo": "A mágoa que {OUTRO} contou"
+            }
+          ]
+        }
+      ],
+      "em_voz_alta": "Quem contou a mágoa dá uma <b>nota de 0 a 10</b> para o quanto se sentiu entendido(a) e diz o que faltou. Quem recebe a nota não se justifica. Só pergunta: <b>“o que eu não entendi?”</b>",
+      "pergunta": "O que você mais precisava que eu entendesse sobre aquele dia?"
+    },
+    {
+      "id": "pedir",
+      "titulo": "Pedir perdão",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "privada": true,
+      "leitura_propria": true,
+      "depende_de": {
+        "etapas": [
+          "magoa"
+        ],
+        "quem": "outro",
+        "texto": "Sem pedido nesta etapa: a mágoa não foi contada hoje."
+      },
+      "instrucao": "Escreva <strong>o seu pedido de perdão</strong> pela mágoa que o outro contou. Diga o que fez, o que isso causou e o que vai fazer diferente.",
+      "versiculos": [
+        {
+          "texto": "Portanto, se você estiver apresentando a sua oferta diante do altar e ali se lembrar de que o seu irmão tem algo contra você, deixe a sua oferta ali, diante do altar, e vá primeiro reconciliar-se com o seu irmão; depois, volte e apresente a sua oferta.",
+          "ref": "Mateus 5.23-24 · NVI"
+        }
+      ],
+      "regras": [
+        "Sem “mas”, sem “se você se sentiu assim”, sem explicar o motivo agora.",
+        "Quem ouve não precisa responder ainda. A resposta é a próxima etapa."
+      ],
+      "campos": [
+        {
+          "id": "pedido",
+          "tipo": "texto",
+          "rotulo": "Meu pedido de perdão a {OUTRO}",
+          "exemplo": "Eu te peço perdão por…",
+          "minimo": 40,
+          "contexto": [
+            {
+              "etapa": "magoa",
+              "quem": "outro",
+              "campos": [
+                "aconteceu",
+                "senti"
+              ],
+              "rotulo": "A mágoa que {OUTRO} contou"
+            }
+          ]
+        }
+      ],
+      "em_voz_alta": "Leiam devagar, olhando para o outro. Quem ouve só recebe. A resposta vem na próxima etapa, sem pressa.",
+      "pergunta": "Tem alguma parte do pedido que você gostaria de ouvir de novo?"
+    },
+    {
+      "id": "liberar",
+      "titulo": "Liberar",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "privada": true,
+      "leitura_propria": true,
+      "depende_de": {
+        "etapas": [
+          "magoa"
+        ],
+        "quem": "eu",
+        "texto": "Sem resposta nesta etapa: não houve mágoa contada hoje."
+      },
+      "instrucao": "Agora cada um responde ao pedido que ouviu. As duas respostas são honestas e as duas são válidas: <strong>perdão arrancado na pressa não é perdão</strong>.",
+      "versiculos": [
+        {
+          "texto": "Então, Pedro aproximou-se de Jesus e perguntou: ― Senhor, quantas vezes deverei perdoar o meu irmão quando ele pecar contra mim? Até sete vezes? Jesus respondeu: ― Eu digo a você que não até sete, mas até setenta vezes sete.",
+          "ref": "Mateus 18.21-22 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "resposta",
+          "tipo": "escolha",
+          "rotulo": "Minha resposta ao pedido de {OUTRO}",
+          "opcoes": [
+            "Eu te perdoo.",
+            "Eu quero te perdoar, mas ainda preciso de tempo."
+          ]
+        },
+        {
+          "id": "ajudaria",
+          "tipo": "texto",
+          "rotulo": "O que me ajudaria a terminar de perdoar",
+          "exemplo": "Me ajudaria se…",
+          "minimo": 15,
+          "opcional": true
+        }
+      ],
+      "em_voz_alta": "Quem ouvir “ainda preciso de tempo” não cobra e não se ofende. Pergunta só: <b>“o que eu posso fazer enquanto isso?”</b>",
+      "pergunta": "O que muda entre nós a partir de hoje por causa desta conversa?"
+    },
+    {
+      "id": "recomeco",
+      "titulo": "Recomeço",
+      "tempo": "8 min",
+      "tipo": "a_quatro_maos",
+      "instrucao": "Mágoa nova vai aparecer, porque vocês são dois e são humanos. Combinem juntos <strong>como ela chega à conversa</strong> antes de virar raiz.",
+      "versiculos": [
+        {
+          "texto": "Esqueçam o que se foi; não vivam no passado. Vejam, eu farei uma coisa nova! Ela está prestes a acontecer! Vocês não a percebem? …",
+          "ref": "Isaías 43.18-19 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "como",
+          "tipo": "texto",
+          "rotulo": "Quando uma mágoa nova aparecer, como vamos trazer para a conversa",
+          "exemplo": "A gente combina de…",
+          "minimo": 30
+        },
+        {
+          "id": "prazo",
+          "tipo": "linha",
+          "rotulo": "Quanto tempo, no máximo, deixamos uma mágoa sem conversar",
+          "exemplo": "Ex.: até o fim do dia seguinte",
+          "minimo": 5
+        }
+      ],
+      "em_voz_alta": "O que foi perdoado hoje não volta como argumento. Se voltar, o outro tem o direito de lembrar deste combinado.",
+      "pergunta": "Fechem orando um pelo outro, de mãos dadas, agradecendo pelo que foi dito e pelo que foi liberado."
+    }
+  ]
+}

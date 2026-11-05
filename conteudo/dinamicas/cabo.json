@@ -1,0 +1,258 @@
+{
+  "id": "cabo",
+  "versao": 1,
+  "publico": "casais",
+  "titulo": "Não estamos em um cabo de guerra",
+  "tempo": "~1 hora",
+  "descricao": "Seis etapas sobre as situações que vocês poderiam enfrentar juntos, mas que costumam virar culpa do outro.",
+  "capa": "cabo",
+  "data": {
+    "rotulo": "Data para conferirem juntos se o plano está funcionando",
+    "curto": "Conferir em"
+  },
+  "combinado": {
+    "rotulo": "Plano e sinal",
+    "descricao": "O plano para uma situação e o sinal que vocês combinaram.",
+    "etapas": [
+      "plano",
+      "sinal"
+    ]
+  },
+  "fechamento": {
+    "texto": "… completem a minha alegria, tendo o mesmo modo de pensar, o mesmo amor, um só espírito e uma só mente.",
+    "ref": "Filipenses 2.2 · NVI"
+  },
+  "etapas": [
+    {
+      "id": "lado",
+      "titulo": "O lado da corda",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "instrucao": "Toda casa tem uma ou duas situações que, quando aparecem, puxam cada um para um lado: dinheiro, casa, cansaço, celular, família, filhos, agenda. Cada um escreve <strong>a situação que mais vira discussão</strong>: a situação, não o defeito do outro.",
+      "versiculos": [
+        {
+          "texto": "Se uma casa estiver dividida contra si mesma, também não poderá subsistir.",
+          "ref": "Marcos 3.25 · NVI"
+        }
+      ],
+      "regras": [
+        "Descreva a situação, não a pessoa: “quando a fatura do cartão chega”, e não “quando você gasta demais”.",
+        "Pode escrever a mesma situação que você acha que o outro vai escrever."
+      ],
+      "campos": [
+        {
+          "id": "situacao",
+          "tipo": "texto",
+          "rotulo": "A situação que mais vira discussão entre nós",
+          "exemplo": "Quando…",
+          "minimo": 20
+        },
+        {
+          "id": "comeco",
+          "tipo": "texto",
+          "rotulo": "Como ela costuma começar: a primeira frase, o primeiro gesto",
+          "exemplo": "Geralmente começa quando…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Se escreveram a mesma situação, isso já diz muito. Se escreveram situações diferentes, também: cada um está puxando a corda de um ponto diferente.",
+      "pergunta": "Quando foi a última vez que essa situação apareceu? Quem percebeu primeiro que ia virar briga?"
+    },
+    {
+      "id": "sente",
+      "titulo": "Como eu acho que você se sente",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "nota": {
+        "rotulo": "Nota de {OUTRO} para esse palpite"
+      },
+      "instrucao": "Agora é sobre a situação que <strong>o outro</strong> escreveu. Tente descrever o que ele ou ela sente quando aquilo acontece: por dentro, não o que aparenta. Ninguém precisa acertar; o exercício é tentar.",
+      "versiculos": [
+        {
+          "texto": "Alegrem-se com os que se alegram e chorem com os que choram.",
+          "ref": "Romanos 12.15 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "sente",
+          "tipo": "texto",
+          "rotulo": "O que eu acho que {OUTRO} sente quando isso acontece",
+          "exemplo": "Acho que você se sente…",
+          "minimo": 40,
+          "contexto": [
+            {
+              "etapa": "lado",
+              "quem": "outro",
+              "campos": [
+                "situacao"
+              ],
+              "rotulo": "A situação que {OUTRO} escreveu"
+            }
+          ]
+        }
+      ],
+      "em_voz_alta": "Depois de ouvir o palpite, quem foi descrito(a) dá uma <b>nota de 0 a 10</b> para o quanto ele acertou e conta o que faltou. Nota baixa não é derrota: é a parte que ainda não tinha sido dita.",
+      "pergunta": "O que você sente nessa hora e nunca conseguiu dizer no meio da discussão?"
+    },
+    {
+      "id": "problema",
+      "titulo": "O problema não é você",
+      "tempo": "8 min",
+      "tipo": "individual",
+      "instrucao": "Quase toda briga começa com uma frase que transforma o problema em pessoa: “você nunca…”, “você sempre…”. Aqui cada um pega <strong>a própria situação</strong> da etapa 1 e reescreve como algo que está contra os dois.",
+      "versiculos": [
+        {
+          "texto": "Levem os fardos uns dos outros e, assim, cumpram a lei de Cristo.",
+          "ref": "Gálatas 6.2 · NVI"
+        }
+      ],
+      "regras": [
+        "Comece com “O problema é…” e termine dizendo como isso atrapalha vocês dois.",
+        "Nesta etapa, a palavra “você” está proibida."
+      ],
+      "campos": [
+        {
+          "id": "problema",
+          "tipo": "texto",
+          "rotulo": "A mesma situação, como um problema nosso",
+          "exemplo": "O problema é… e isso atrapalha nós dois porque…",
+          "minimo": 40,
+          "contexto": [
+            {
+              "etapa": "lado",
+              "quem": "eu",
+              "campos": [
+                "situacao"
+              ],
+              "rotulo": "A situação que você escreveu"
+            }
+          ]
+        }
+      ],
+      "em_voz_alta": "Ouçam como a mesma situação muda de peso quando deixa de ter culpado. O problema continua lá, mas agora tem dois do mesmo lado contra ele.",
+      "pergunta": "Se esse problema fosse alguém de fora tentando separar vocês, como vocês dois iam se defender dele?"
+    },
+    {
+      "id": "puxo",
+      "titulo": "O que eu faço que puxa a corda",
+      "tempo": "10 min",
+      "tipo": "individual",
+      "instrucao": "Cabo de guerra só existe com duas pessoas puxando. Cada um escreve <strong>duas coisas que faz</strong> (palavras, tons, silêncios) que esticam a corda quando a situação aparece.",
+      "versiculos": [
+        {
+          "texto": "Meus amados irmãos, tenham isto em mente: sejam todos prontos para ouvir, tardios para falar e tardios para irar-se…",
+          "ref": "Tiago 1.19 · NVI"
+        }
+      ],
+      "regras": [
+        "Só sobre você. Ninguém completa a lista do outro.",
+        "Quem ouve responde uma frase: “obrigado(a) por reconhecer”.",
+        "Nada do que for dito aqui volta como munição."
+      ],
+      "campos": [
+        {
+          "id": "puxo1",
+          "tipo": "texto",
+          "rotulo": "Uma coisa que eu faço que estica a corda",
+          "exemplo": "Quando isso acontece, eu…",
+          "minimo": 30
+        },
+        {
+          "id": "puxo2",
+          "tipo": "texto",
+          "rotulo": "Outra coisa que eu faço",
+          "exemplo": "Eu também…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Reconhecer a própria força na corda é o que permite soltar. Quem ouve <b>não aproveita, não concorda demais e não completa</b>. Só agradece.",
+      "pergunta": "Qual dessas coisas você faz sem perceber? E como eu posso te avisar sem que soe como acusação?"
+    },
+    {
+      "id": "plano",
+      "titulo": "Do mesmo lado",
+      "tempo": "12 min",
+      "tipo": "a_quatro_maos",
+      "instrucao": "A única etapa escrita a dois. Escolham <strong>uma</strong> das situações da etapa 1 e montem juntos um plano: o que cada um passa a fazer e o que os dois param de fazer. Um segura o celular; os dois decidem cada palavra.",
+      "versiculos": [
+        {
+          "texto": "Duas pessoas andarão juntas se não estiverem de acordo?",
+          "ref": "Amós 3.3 · NVI"
+        }
+      ],
+      "regras": [
+        "Uma situação só. As outras ficam para outro dia.",
+        "Cada compromisso precisa ser pequeno e dar para ver se aconteceu."
+      ],
+      "campos": [
+        {
+          "id": "situacao",
+          "tipo": "escolha",
+          "rotulo": "A situação que vamos enfrentar juntos",
+          "opcoes_de": {
+            "etapa": "lado",
+            "quem": "os_dois",
+            "campos": [
+              "situacao"
+            ]
+          }
+        },
+        {
+          "id": "faz_a",
+          "tipo": "texto",
+          "rotulo": "O que {A} passa a fazer",
+          "exemplo": "Quando isso acontecer, {A} vai…",
+          "minimo": 25
+        },
+        {
+          "id": "faz_b",
+          "tipo": "texto",
+          "rotulo": "O que {B} passa a fazer",
+          "exemplo": "Quando isso acontecer, {B} vai…",
+          "minimo": 25
+        },
+        {
+          "id": "paramos",
+          "tipo": "texto",
+          "rotulo": "O que nós dois paramos de fazer",
+          "exemplo": "A gente para de…",
+          "minimo": 25
+        }
+      ],
+      "em_voz_alta": "Se alguma linha do plano soar como cobrança disfarçada, reescrevam agora. Ainda dá tempo.",
+      "pergunta": "Daqui a duas semanas, como vamos saber se o plano está funcionando?"
+    },
+    {
+      "id": "sinal",
+      "titulo": "Quando a corda esticar",
+      "tempo": "8 min",
+      "tipo": "a_quatro_maos",
+      "instrucao": "Por melhor que seja o plano, a corda vai esticar de novo. Combinem <strong>um sinal</strong> (uma palavra, um gesto) que qualquer um dos dois pode usar para dizer: “estamos puxando de novo”. Quem ouvir o sinal para, respira, e os dois mudam de lado.",
+      "versiculos": [
+        {
+          "texto": "“Quando ficarem irados, não pequem”. Não permitam que o sol se ponha enquanto durar a ira de vocês…",
+          "ref": "Efésios 4.26 · NVI"
+        }
+      ],
+      "campos": [
+        {
+          "id": "sinal",
+          "tipo": "linha",
+          "rotulo": "Nosso sinal: uma palavra ou um gesto",
+          "exemplo": "Ex.: “corda”, “time”, um toque no ombro…",
+          "minimo": 3
+        },
+        {
+          "id": "quando",
+          "tipo": "texto",
+          "rotulo": "O que fazemos quando um de nós usar o sinal",
+          "exemplo": "Paramos, respiramos e…",
+          "minimo": 30
+        }
+      ],
+      "em_voz_alta": "Ensaiem o sinal agora, uma vez cada um, pode ser rindo. Sinal que nunca foi usado não funciona na hora da briga.",
+      "pergunta": "Fechem orando juntos, de mãos dadas, pelo plano e pela situação que escolheram. Depois marquem a data de conferir como está indo."
+    }
+  ]
+}
